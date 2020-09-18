@@ -1,42 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="2" total="3" passed="0" failed="1" skipped="0">
+<testng-results skipped="0" failed="0" ignored="2" total="3" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-09-18T17:26:19Z" name="NagwaWebsite" finished-at="2020-09-18T17:26:44Z" duration-ms="24744">
+  <suite name="NagwaWebsite" duration-ms="12795" started-at="2020-09-18T19:22:20Z" finished-at="2020-09-18T19:22:32Z">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:pages.PageObject@1a4013]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.LessonWorksheetRunner@22e357dc]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:utilities.TestBase@1b6e1eff]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:pages.PageObject@4f970963]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.LessonWorksheetRunner@7fac631b]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:utilities.TestBase@61f8bee4]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2020-09-18T17:26:19Z" name="WorksheetIE" finished-at="2020-09-18T17:26:44Z" duration-ms="24744">
+    <test name="WorksheetChrome" duration-ms="12795" started-at="2020-09-18T19:22:20Z" finished-at="2020-09-18T19:22:32Z">
       <class name="utilities.ExtentReport">
-        <test-method is-config="true" signature="endReport()[pri:0, instance:utilities.ExtentReport@306f16f3]" started-at="2020-09-18T17:26:43Z" name="endReport" finished-at="2020-09-18T17:26:43Z" duration-ms="518" status="PASS">
+        <test-method status="PASS" signature="endReport()[pri:0, instance:utilities.ExtentReport@7b49cea0]" name="endReport" is-config="true" duration-ms="205" started-at="2020-09-18T19:22:31Z" finished-at="2020-09-18T19:22:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endReport -->
-        <test-method is-config="true" signature="closedriver()[pri:0, instance:utilities.TestBase@1b6e1eff]" started-at="2020-09-18T17:26:43Z" name="closedriver" finished-at="2020-09-18T17:26:44Z" duration-ms="540" status="PASS">
+        <test-method status="PASS" signature="closedriver()[pri:0, instance:utilities.TestBase@61f8bee4]" name="closedriver" is-config="true" duration-ms="759" started-at="2020-09-18T19:22:32Z" finished-at="2020-09-18T19:22:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closedriver -->
       </class> <!-- utilities.ExtentReport -->
       <class name="pages.PageObject">
-        <test-method is-config="true" signature="setUpClass()[pri:0, instance:pages.PageObject@1a4013]" started-at="2020-09-18T17:26:34Z" name="setUpClass" finished-at="2020-09-18T17:26:34Z" duration-ms="6" status="PASS">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:pages.PageObject@4f970963]" name="setUpClass" is-config="true" duration-ms="4" started-at="2020-09-18T19:22:22Z" finished-at="2020-09-18T19:22:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:pages.PageObject@1a4013]" started-at="2020-09-18T17:26:34Z" name="tearDownClass" finished-at="2020-09-18T17:26:34Z" duration-ms="1" status="PASS">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:pages.PageObject@4f970963]" name="tearDownClass" is-config="true" duration-ms="1" started-at="2020-09-18T19:22:22Z" finished-at="2020-09-18T19:22:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
       </class> <!-- pages.PageObject -->
       <class name="testRunner.LessonWorksheetRunner">
-        <test-method is-config="true" signature="setUpClass()[pri:0, instance:testRunner.LessonWorksheetRunner@22e357dc]" started-at="2020-09-18T17:26:34Z" name="setUpClass" finished-at="2020-09-18T17:26:35Z" duration-ms="515" status="PASS">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:testRunner.LessonWorksheetRunner@7fac631b]" name="setUpClass" is-config="true" duration-ms="546" started-at="2020-09-18T19:22:22Z" finished-at="2020-09-18T19:22:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.LessonWorksheetRunner@22e357dc]" started-at="2020-09-18T17:26:35Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-09-18T17:26:43Z" duration-ms="7739" status="FAIL">
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.LessonWorksheetRunner@7fac631b]" name="runScenario" duration-ms="8469" started-at="2020-09-18T19:22:23Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-09-18T19:22:31Z">
           <params>
             <param index="0">
               <value>
@@ -49,93 +49,50 @@
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[Unable to find element with xpath == //a[contains(text(),'English')]
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-1KRHALU', ip: '192.168.42.195', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '10.0.1'
-Driver info: org.openqa.selenium.ie.InternetExplorerDriver
-Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: true, ignoreZoomSetting: true, initialBrowserUrl: http://localhost:1227/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept}
-Session ID: 6e954c4c-7e6b-4353-bfd1-e545421b300b
-*** Element info: {Using=xpath, value=//a[contains(text(),'English')]}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to find element with xpath == //a[contains(text(),'English')]
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-1KRHALU', ip: '192.168.42.195', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '10.0.1'
-Driver info: org.openqa.selenium.ie.InternetExplorerDriver
-Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: true, ignoreZoomSetting: true, initialBrowserUrl: http://localhost:1227/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept}
-Session ID: 6e954c4c-7e6b-4353-bfd1-e545421b300b
-*** Element info: {Using=xpath, value=//a[contains(text(),'English')]}
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:488)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at com.sun.proxy.$Proxy20.click(Unknown Source)
-at pages.Home.clickEnglish(Home.java:27)
-at stepDef.LessonWorksheetSteps.i_choose_a_language_to_open_the_home_page(LessonWorksheetSteps.java:28)
-at ✽.I choose English language to open the home page(file:///D:/Engineering/CoursesTrial/Testing/Selenium/NagwaWebsite/src/test/java/features/lessonWorksheet.feature:6)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testRunner.LessonWorksheetRunner@22e357dc]" started-at="2020-09-18T17:26:43Z" name="tearDownClass" finished-at="2020-09-18T17:26:43Z" duration-ms="248" status="PASS">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:testRunner.LessonWorksheetRunner@7fac631b]" name="tearDownClass" is-config="true" duration-ms="45" started-at="2020-09-18T19:22:31Z" finished-at="2020-09-18T19:22:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
       </class> <!-- testRunner.LessonWorksheetRunner -->
       <class name="utilities.TestBase">
-        <test-method is-config="true" signature="WebInit(java.lang.String)[pri:0, instance:utilities.TestBase@1b6e1eff]" started-at="2020-09-18T17:26:19Z" name="WebInit" finished-at="2020-09-18T17:26:34Z" duration-ms="14583" status="PASS">
+        <test-method status="PASS" signature="WebInit(java.lang.String)[pri:0, instance:utilities.TestBase@61f8bee4]" name="WebInit" is-config="true" duration-ms="2478" started-at="2020-09-18T19:22:20Z" finished-at="2020-09-18T19:22:22Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[IE]]>
+                <![CDATA[Chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- WebInit -->
-        <test-method is-config="true" signature="PageFactoryObject()[pri:0, instance:pages.PageObject@1a4013]" started-at="2020-09-18T17:26:34Z" name="PageFactoryObject" finished-at="2020-09-18T17:26:34Z" depends-on-methods="utilities.TestBase.WebInit" duration-ms="44" status="PASS">
+        <test-method status="PASS" signature="PageFactoryObject()[pri:0, instance:pages.PageObject@4f970963]" name="PageFactoryObject" is-config="true" duration-ms="33" started-at="2020-09-18T19:22:22Z" depends-on-methods="utilities.TestBase.WebInit" finished-at="2020-09-18T19:22:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PageFactoryObject -->
-        <test-method is-config="true" signature="startReport(java.lang.String)[pri:0, instance:utilities.ExtentReport@306f16f3]" started-at="2020-09-18T17:26:34Z" name="startReport" finished-at="2020-09-18T17:26:34Z" duration-ms="265" status="PASS">
+        <test-method status="PASS" signature="startReport(java.lang.String)[pri:0, instance:utilities.ExtentReport@7b49cea0]" name="startReport" is-config="true" duration-ms="109" started-at="2020-09-18T19:22:22Z" finished-at="2020-09-18T19:22:22Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[WorksheetIE]]>
+                <![CDATA[WorksheetChrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startReport -->
-        <test-method is-config="true" signature="setUpClass()[pri:0, instance:utilities.TestBase@1b6e1eff]" started-at="2020-09-18T17:26:34Z" name="setUpClass" finished-at="2020-09-18T17:26:34Z" duration-ms="238" status="PASS">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:utilities.TestBase@61f8bee4]" name="setUpClass" is-config="true" duration-ms="116" started-at="2020-09-18T19:22:22Z" finished-at="2020-09-18T19:22:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:utilities.TestBase@1b6e1eff]" started-at="2020-09-18T17:26:34Z" name="tearDownClass" finished-at="2020-09-18T17:26:34Z" duration-ms="7" status="PASS">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:utilities.TestBase@61f8bee4]" name="tearDownClass" is-config="true" duration-ms="4" started-at="2020-09-18T19:22:22Z" finished-at="2020-09-18T19:22:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
       </class> <!-- utilities.TestBase -->
-    </test> <!-- WorksheetIE -->
+    </test> <!-- WorksheetChrome -->
   </suite> <!-- NagwaWebsite -->
 </testng-results>
