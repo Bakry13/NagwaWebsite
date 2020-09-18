@@ -9,10 +9,34 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="7">NagwaWebsite</th></tr>
-<tr><td><a href="#t0">Worksheetquestions</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">12,278</td><td></td><td></td></tr>
+<tr><td><a href="#t0">WorksheetIE</a></td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">24,744</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">NagwaWebsite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Worksheetquestions &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">testRunner.LessonWorksheetRunner</td><td><a href="#m0">runScenario</a></td><td rowspan="1">1600446293304</td><td rowspan="1">7825</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">NagwaWebsite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">WorksheetIE &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">testRunner.LessonWorksheetRunner</td><td><a href="#m0">runScenario</a></td><td rowspan="1">1600449995470</td><td rowspan="1">7739</td></tr></tbody>
 </table>
-<h2>Worksheetquestions</h2><h3 id="m0">testRunner.LessonWorksheetRunner#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;Check number of question in a specific lesson worksheet&quot;</td><td>&quot;Optional[Lesson worksheet]&quot;</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>WorksheetIE</h2><h3 id="m0">testRunner.LessonWorksheetRunner#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;Check number of question in a specific lesson worksheet&quot;</td><td>&quot;Optional[Lesson worksheet]&quot;</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">org.openqa.selenium.NoSuchElementException: Unable to find element with xpath == //a[contains(text(),&apos;English&apos;)]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-1KRHALU&apos;, ip: &apos;192.168.42.195&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;10.0.1&apos;
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: true, ignoreZoomSetting: true, initialBrowserUrl: http://localhost:1227/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept}
+Session ID: 6e954c4c-7e6b-4353-bfd1-e545421b300b
+*** Element info: {Using=xpath, value=//a[contains(text(),&apos;English&apos;)]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy20.click(Unknown Source)
+	at pages.Home.clickEnglish(Home.java:27)
+	at stepDef.LessonWorksheetSteps.i_choose_a_language_to_open_the_home_page(LessonWorksheetSteps.java:28)
+	at ✽.I choose English language to open the home page(file:///D:/Engineering/CoursesTrial/Testing/Selenium/NagwaWebsite/src/test/java/features/lessonWorksheet.feature:6)
+... Removed 4 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

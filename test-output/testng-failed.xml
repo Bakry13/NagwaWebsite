@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [NagwaWebsite]" parallel="tests">
-  <test thread-count="5" name="Worksheetquestions(failed)" parallel="tests">
-    <parameter name="ReportName" value="WorksheetChromeTest"/>
-    <parameter name="Browser" value="Chrome"/>
+<suite parallel="tests" name="Failed suite [NagwaWebsite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="WorksheetIE(failed)">
+    <parameter name="ReportName" value="WorksheetIE"/>
+    <parameter name="Browser" value="IE"/>
     <classes>
       <class name="testRunner.LessonWorksheetRunner">
         <methods>
@@ -14,5 +14,5 @@
         </methods>
       </class> <!-- testRunner.LessonWorksheetRunner -->
     </classes>
-  </test> <!-- Worksheetquestions(failed) -->
+  </test> <!-- WorksheetIE(failed) -->
 </suite> <!-- Failed suite [NagwaWebsite] -->
