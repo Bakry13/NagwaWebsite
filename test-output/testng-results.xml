@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="3" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="NagwaWebsite" duration-ms="12278" started-at="2020-09-18T16:24:50Z" finished-at="2020-09-18T16:25:02Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:pages.PageObject@7fac631b]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.LessonWorksheetRunner@47ef968d]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:utilities.TestBase@5b87ed94]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Worksheetquestions" duration-ms="12278" started-at="2020-09-18T16:24:50Z" finished-at="2020-09-18T16:25:02Z">
+      <class name="utilities.ExtentReport">
+        <test-method status="PASS" signature="endReport()[pri:0, instance:utilities.ExtentReport@6e0e048a]" name="endReport" is-config="true" duration-ms="453" started-at="2020-09-18T16:25:01Z" finished-at="2020-09-18T16:25:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+        <test-method status="PASS" signature="closedriver()[pri:0, instance:utilities.TestBase@5b87ed94]" name="closedriver" is-config="true" duration-ms="785" started-at="2020-09-18T16:25:01Z" finished-at="2020-09-18T16:25:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedriver -->
+      </class> <!-- utilities.ExtentReport -->
+      <class name="pages.PageObject">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:pages.PageObject@7fac631b]" name="setUpClass" is-config="true" duration-ms="5" started-at="2020-09-18T16:24:52Z" finished-at="2020-09-18T16:24:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:pages.PageObject@7fac631b]" name="tearDownClass" is-config="true" duration-ms="0" started-at="2020-09-18T16:24:52Z" finished-at="2020-09-18T16:24:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- pages.PageObject -->
+      <class name="testRunner.LessonWorksheetRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:testRunner.LessonWorksheetRunner@47ef968d]" name="setUpClass" is-config="true" duration-ms="328" started-at="2020-09-18T16:24:52Z" finished-at="2020-09-18T16:24:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.LessonWorksheetRunner@47ef968d]" name="runScenario" duration-ms="7825" started-at="2020-09-18T16:24:53Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-09-18T16:25:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check number of question in a specific lesson worksheet"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Lesson worksheet]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:testRunner.LessonWorksheetRunner@47ef968d]" name="tearDownClass" is-config="true" duration-ms="78" started-at="2020-09-18T16:25:01Z" finished-at="2020-09-18T16:25:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- testRunner.LessonWorksheetRunner -->
+      <class name="utilities.TestBase">
+        <test-method status="PASS" signature="WebInit(java.lang.String)[pri:0, instance:utilities.TestBase@5b87ed94]" name="WebInit" is-config="true" duration-ms="2324" started-at="2020-09-18T16:24:50Z" finished-at="2020-09-18T16:24:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebInit -->
+        <test-method status="PASS" signature="PageFactoryObject()[pri:0, instance:pages.PageObject@7fac631b]" name="PageFactoryObject" is-config="true" duration-ms="70" started-at="2020-09-18T16:24:52Z" depends-on-methods="utilities.TestBase.WebInit" finished-at="2020-09-18T16:24:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PageFactoryObject -->
+        <test-method status="PASS" signature="startReport(java.lang.String)[pri:0, instance:utilities.ExtentReport@6e0e048a]" name="startReport" is-config="true" duration-ms="221" started-at="2020-09-18T16:24:52Z" finished-at="2020-09-18T16:24:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[WorksheetChromeTest]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:utilities.TestBase@5b87ed94]" name="setUpClass" is-config="true" duration-ms="164" started-at="2020-09-18T16:24:52Z" finished-at="2020-09-18T16:24:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:utilities.TestBase@5b87ed94]" name="tearDownClass" is-config="true" duration-ms="4" started-at="2020-09-18T16:24:52Z" finished-at="2020-09-18T16:24:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- utilities.TestBase -->
+    </test> <!-- Worksheetquestions -->
+  </suite> <!-- NagwaWebsite -->
+</testng-results>

@@ -1,0 +1,30 @@
+<suite name="NagwaWebsite" parallel="tests">
+ 	<test name="Worksheetquestions">
+	<parameter name="ReportName" value="WorksheetChromeTest" />
+	<parameter name="Browser" value="Chrome" />
+		<classes>
+			<class name="utilities.ExtentReport" />
+			<class name="utilities.TestBase" />
+			<class name="pages.PageObject" />
+			<class name="testRunner.LessonWorksheetRunner" /> 
+		</classes>
+	</test>
+<!-- 	<test name="FirefoxSearch">
+	<parameter name="ReportName" value="FirefoxSearch" />
+	<parameter name="Browser" value="Firefox" />
+		<classes>
+			<class name="utilities.ExtentReport" />
+			<class name="pages.PageObject" />
+			<class name="utilities.TestBase" />  
+		</classes>
+	</test>
+	<test name="IESearch">
+	<parameter name="ReportName" value="IESearch" />
+	<parameter name="Browser" value="IE" />
+		<classes>
+			<class name="utilities.ExtentReport" />
+			<class name="pages.PageObject" />
+			<class name="utilities.TestBase" /> 
+		</classes>
+	</test> -->
+</suite>

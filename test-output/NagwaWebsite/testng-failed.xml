@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [NagwaWebsite]" parallel="tests">
+  <test thread-count="5" name="Worksheetquestions(failed)" parallel="tests">
+    <parameter name="ReportName" value="WorksheetChromeTest"/>
+    <parameter name="Browser" value="Chrome"/>
+    <classes>
+      <class name="testRunner.LessonWorksheetRunner">
+        <methods>
+          <include name="WebInit"/>
+          <include name="runScenario" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- testRunner.LessonWorksheetRunner -->
+    </classes>
+  </test> <!-- Worksheetquestions(failed) -->
+</suite> <!-- Failed suite [NagwaWebsite] -->
